@@ -3,6 +3,7 @@
 <head>
   <title>TestBlog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag	'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -40,9 +41,8 @@
 			<%= content_tag(:div, msg, class: "alert") %>
 			<% end %> 
 
+		<%= yield %>
 	</div>
-
-<%= yield %>
 
 </body>
 </html>

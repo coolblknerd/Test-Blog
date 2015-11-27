@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
 @import 'normalize';
 
 html, body {
@@ -105,18 +106,22 @@ a {
 
 #main_content {
 	margin-left: 250px;
+
 	#header {
 		padding: 1em 3em;
 		border-bottom: 1px solid #d6dce0;
 		background: #f5f7f9;
 		color: #9eafba;
+
 		p {
 			display: inline;
 		}
+
 		a {
 			color: #9eafba;
 			text-decoration: none;
 		}
+
 		.buttons {
 			float: right;
 			margin-top: -6px;
@@ -126,11 +131,14 @@ a {
 			}
 		}
 	}
+
 	.post_wrapper {
 		padding: 3em;
 		border-bottom: 1px solid #d6dce0;
+
 		.title {
 			margin: 0;
+
 			a {
 				font-weight: 500;
 				text-decoration: none;
@@ -141,6 +149,7 @@ a {
 				}
 			}
 		}
+		
 		.date_and_author {
 			color: #9eafba;
 			margin: .5em 0 0 0;
